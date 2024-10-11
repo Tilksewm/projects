@@ -1,0 +1,354 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --text-color:#000000;
+    --main-color:#05411a;
+    --background-c:#ABD0DD;
+}
+span{
+    color: var(--main-color);
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.btn {
+    padding: 10px 14px;
+    background: var(--main-color);
+    color: #fff;
+    border-radius: 0.3rem;
+    font-size: 14px;
+  }
+/*navigation bar */
+.header{
+    /* height of the header image */
+    height: 200px;
+    width: 100%;
+    position: relative;
+    background-color: var(--background-c);}
+.container{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  #navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 22px;
+  }
+  
+  #navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  #navbar a.active {
+    background-color: rgba(0, 0, 0, 0.0);
+    color: white;
+  }
+  .content {
+    padding: 16px;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
+  /* for the hidden menu list */
+.menu-container{
+    position: absolute;
+    right: 0;
+    top: 148px;
+    z-index: 110;
+    width: 30%;
+}
+#menu-list{
+    display: none;
+    width: 100%;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.menu-items{
+    display: block;
+}
+#nav-drawer{
+    display: none;
+    float: left;
+    color: #f2f2f2;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 22px;
+}
+#menu-list a, #menu-list i{
+    display: block;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 22px;
+}
+#menu-list i{
+    color: whitesmoke;
+}
+.sticky-menu{
+    position: fixed;
+    top: 0;
+    z-index: 110;    
+}
+/* home page */
+.homepage{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 100px;
+}
+.homepage > div{
+    width: 420px;
+    height: 600px;
+    display: inline;
+    overflow: hidden;
+    margin: 10px 10px 10px 10px;
+}
+.personinfo{
+    position: relative;
+}
+.pimgcont{
+    width: 100%;
+}
+.pimgcont img{
+    width: 100%;
+}
+.aboutme{
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    width: 80%;
+    background-color: var(--background-c);
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+}
+.aboutme .title{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.contactme{
+    position: absolute;
+    top: 80%;
+    left: 0px;
+    width: 100%;
+    color: white;
+    padding-left: 2%;
+}
+.contact-list{
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+}
+.contact-list .l-item .bx{
+    font-size: 20px;
+    color: var(--background-c);
+}
+.contact-list span{
+    color: rgb(225, 214, 214);
+    display: block;
+    font-size: small;
+    padding-top: 5px;
+}
+.contact-list .l-item{
+    padding-left: 10px;
+}
+.rightdesc .sidedesc{
+    width: 100%;
+    height: 70%;
+    padding: 2%;
+}
+.rightdesc .sidedesc h2{
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+.rightdesc .sidedesc p{
+    padding-right: 5%;
+}
+.rightdesc .threeimg{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+.rightdesc .threeimg img{
+    width: 135px;
+    height: auto;
+    padding: 2px;
+}
+
+/* styles for project overview*/
+.divcontainer{
+    margin-bottom: 20px;
+}
+.divcontainer, .subdiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.subdiv{
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.1);
+    scroll-behavior: smooth;
+}
+.subdiv:hover{
+    transform: scale(1.02);
+    transition: 0.5s;
+}
+.subdiv > div{
+    height: auto;
+    display: inline;
+    overflow: hidden;
+    background-color: rgb(252, 252, 252);
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px;
+}
+.divcontainer .sdiv{
+    max-width: 350px;
+}
+.divcontainer .ldiv{
+    max-width: 650px;
+}
+.divcontainer img{
+    width: 100%;
+}
+.ltext{
+    background-color: var(--background-c);
+    margin-bottom: 10px;
+    text-align: center;
+}
+.stext{
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+.simgview{
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+}
+.limgview{
+    height: 372.2px;
+    width: 100%;
+    overflow: hidden;
+}
+.stext, .ltext{
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+.ltitle, .ldesc, .stitle, .sdesc{
+    padding-right: 60px;
+}
+.ltitle, .stitle{
+    margin-bottom: 5px;
+    text-align: center;
+}
+.detailbtn{
+    position: absolute;
+    bottom: 10%;
+    padding: 5px;
+    background-color: var(--background-c);
+    font-size: 30px;
+    border-radius: 10px;
+    border-color: rgba(0, 0, 0, 0.0);
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.detailbtn:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, auto));
+    grid-gap: 10px;
+    margin: 20px 0 0 0;
+    border-top:2px solid #686161;
+    padding: 50px 26px;
+}
+.footer p{
+    font-size: 16px;
+    font-weight: bold;
+}
+.footer a{
+    text-decoration: none;
+}
+.footer-box{
+    list-style: none;
+    color: black;
+    text-decoration: none;
+}
+.footer-box h2,h3,p{
+    padding-bottom: 10px;
+}
+.footer-box.contact-info span{
+    display: block;
+    padding-bottom: 3px;
+}
+.footer-box .social a{
+    
+}
+.footer-box .social .bx{
+    font-size: 40px;
+    color: var(--main-color);
+    padding: 10px;
+}
+.copyright{
+    text-align: center;
+    color: black;
+    font-size: 32px;
+    margin: 20px 0 20px 0;
+}
+@media (max-width: 912px){
+    .rightdesc .sidedesc{
+        height: auto;
+    }
+    .homepage > div{
+        height: auto;
+    }
+    .divcontainer .sdiv {
+        max-width: 650px;
+    }
+}
+@media (max-width: 625px){
+    #nav-drawer{
+        display: block;
+    }
+    .menu-items{
+        display: none;
+    }
+    #navbar{
+        justify-content: space-between;
+    }
+}
+

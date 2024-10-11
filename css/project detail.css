@@ -1,0 +1,306 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: .2s linear;
+    text-transform: capitalize;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+}
+body{
+    position: relative;
+}
+:root {
+    --main-color: #1f232a;
+    --primary-color: #2d4f03;
+    --black: #222;
+    --white: #fefefe;
+    --bg: #fefefe;
+    --light-black: #0a0906;
+    --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    --example: rgb(231, 52, 52);
+}
+/* for hidden menu list */
+.menu-container{
+    position: absolute;
+    right: 0;
+    top: 148px;
+    z-index: 110;
+    width: 30%;
+}
+#menu-list{
+    display: none;
+    width: 100%;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.menu-items{
+    display: block;
+}
+#nav-drawer{
+    display: none;
+    float: left;
+    color: #f2f2f2;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 22px;
+}
+#menu-list a, #menu-list i{
+    display: block;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 22px;
+}
+#menu-list i{
+    color: whitesmoke;
+}
+.sticky-menu{
+    position: fixed;
+    top: 0;
+    z-index: 110;    
+}
+/* for only the first home section */
+section{
+    padding: 3rem 9%;
+    display: block;
+    unicode-bidi: isolate;
+}
+.heading {
+    text-align: center;
+    color: var(--main-color);
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+    font-size: 4rem;
+    margin-top: 2rem;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+.heading span {
+    color: var(--primary-color);
+    text-transform: capitalize;
+}
+.project-title .row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.project-title .row .image {
+    flex: 1 1 40rem;
+}
+.project-title .row .image img {
+    width: 100%;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+.project-title .row .content {
+    flex: 1 1 50rem;
+    padding: 6rem;
+}
+.project-title .row .content h3 {
+    font-size: 2.5rem;
+    color: var(--main-color);
+    padding-top: 1rem;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+.project-title .row .content p {
+    font-size: 1.4rem;
+    color: var(--light-black);
+    padding: 1rem 0;
+    line-height: 2;
+}
+p {
+    font-size: 1.4rem;
+    line-height: 2;
+    padding: 1rem 0;
+
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+.btn {
+    margin-top: 1rem;
+    display: inline-block;
+    background: var(--main-color);
+    color: var(--white);
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 1rem 3rem;
+}
+/* first section and related content */
+
+/* for the second item */
+.form-development {
+    background: var(--bg);
+}
+.form-development .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+.form-development .box-container .box {
+    padding: 2rem;
+    text-align: center;
+    border: 0.1rem solid var(--main-color);
+    box-shadow: var(--box-shadow);
+}
+.form-development .box-container .box img {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.form-development .box-container .box h3 {
+    font-size: 2.2rem;
+    color: var(--main-color);
+}
+.form-development .box-container .box p {
+    font-size: 1.4rem;
+    color: var(--light-black);
+    line-height: 2;
+    padding: 1rem 0;
+}
+/* for the concept and palas cus they use the same design */
+.concept-container, .plans-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.box {
+    position: relative;
+    box-shadow: 1px 4px 4px rgb(0, 0, 0, 0.1);
+    border-radius: 44px 4px 4px 4px;
+}
+.box .plan-title{
+    text-align: center;
+}
+.plan-title h3 {
+    font-size: 2.2rem;
+    color: var(--main-color);
+}
+.box .box-img {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 44px 4px 0 0;
+}
+.box .box-img img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.box span {
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding-left: 12px;
+    color: var(--main-color);
+}
+.box p{
+    font-size: 1.4rem;
+    line-height: 2;
+    color: var(--light-black);
+    padding: 1rem 0;
+}
+/* for the legend */
+.site-container, .construction-container{
+    width: 100%;
+}
+.site-img, .construction-img{
+    width: 100%;
+    max-height: 500px;
+    overflow: hidden;
+}
+.site-img img, .construction-img img{
+    aspect-ratio: 16/9;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.site-p p, .construction-p p{
+    font-size: 1.4rem;
+    line-height: 2;
+    padding: 1rem 0;
+}
+/* for the three D designs */
+.cover{
+    display: grid;
+    gap: 1rem;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(400px, auto));
+}
+.cover .cover-image{
+    height: 500px;
+    overflow: hidden;
+}
+.cover .cover-image img{
+    width: 100%;
+}
+.second-image{
+    display: grid;
+    gap: 1rem;
+    max-width: 400px;
+    height: 500px;
+}
+.img-container{
+    display: block;
+    overflow: hidden;
+}
+.img-container img{
+    width: 100%;
+    object-fit: cover;
+}
+@media (max-width: 987px){
+    .second-image{
+        max-width: 100%;
+        height: 100%;
+    }
+    .cover{
+        grid-template-rows: 500px 1000px;
+    }
+}
+@media (max-width: 625px){
+    #nav-drawer{
+        display: block;
+    }
+    .menu-items{
+        display: none;
+    }
+    #navbar{
+        justify-content: space-between;
+    }
+}
