@@ -1,57 +1,43 @@
 {
     "proID": 1,
-    "proTitle": "zvdsvsdvzsdvzsdvszd",
-    "proDescTitle": "zvdsvsdvzsdvzsdvszd",
-    "proDesc": "zvdsvsdvzsdvzsdvszd",
-    "proImg": "..\/images\/Picture8.jpg",
-    "formTitle": "zvdsvsdvzsdvzsdvszd",
-    "formDesc": "zvdsvsdvzsdvzsdvszd",
-    "conTitle": "zvdsvsdvzsdvzsdvszd",
-    "conDesc": "zvdsvsdvzsdvzsdvszd",
-    "sitePTitle": "zvdsvsdvzsdvzsdvszd",
-    "sitePImg": "..\/images\/dvb.jpg",
-    "sitePDesc": "zvdsvsdvzsdvzsdvszd",
-    "planTitle": "zvdsvsdvzsdvzsdvszd",
-    "constTitle": "zvdsvsdvzsdvzsdvszd",
-    "constImg": "..\/images\/Picture9.jpg",
-    "constDesc": "zvdsvsdvzsdvzsdvszd",
-    "threeDTitle": "zvdsvsdvzsdvzsdvszd",
-    "threeDImg1": "..\/images\/xcv.jpg",
-    "threeDImg2": "..\/images\/xcvcv.jpg",
-    "threeDImg3": "..\/images\/xcv.jpg",
-    "threeDDesc": "zvdsvsdvzsdvzsdvszd",
+    "proTitle": "",
+    "proDescTitle": "",
+    "proDesc": "",
+    "proImg": "..\/images\/",
+    "formTitle": "Form Development",
+    "formDesc": "",
+    "conTitle": "Concepts",
+    "conDesc": "",
+    "sitePTitle": "Site Plans",
+    "sitePImg": "..\/images\/",
+    "sitePDesc": "",
+    "planTitle": "Plans",
+    "constTitle": "Construction",
+    "constImg": "..\/images\/",
+    "constDesc": "",
+    "threeDTitle": "3D",
+    "threeDImg1": "..\/images\/",
+    "threeDImg2": "..\/images\/",
+    "threeDImg3": "..\/images\/",
+    "threeDDesc": "",
     "forms": [
         {
-            "formImg": "..\/images\/Picture5.png",
-            "formImgDescTitle": "zvdsvsdvzsdvzsdvszd",
-            "formImgDesc": "zvdsvsdvzsdvzsdvszd"
-        },
-        {
-            "formImg": "..\/images\/Picture1.jpg",
-            "formImgDescTitle": "zvdsvsdvzsdvzsdvszd",
-            "formImgDesc": "zvdsvsdvzsdvzsdvszd"
+            "formImg": "..\/images\/",
+            "formImgDescTitle": "",
+            "formImgDesc": ""
         }
     ],
     "concepts": [
         {
-            "conImg": "..\/images\/xcvb.jpg",
-            "conImgDesc": "zvdsvsdvzsdvzsdvszd"
-        },
-        {
-            "conImg": "..\/images\/Picture5.png",
-            "conImgDesc": "zvdsvsdvzsdvzsdvszd"
+            "conImg": "..\/images\/",
+            "conImgDesc": ""
         }
     ],
     "plans": [
         {
-            "planItemImg": "..\/images\/dfgh.jpg",
-            "planItemTitle": "zvdsvsdvzsdvzsdvszd",
-            "planItemDesc": "zvdsvsdvzsdvzsdvszd"
-        },
-        {
-            "planItemImg": "..\/images\/Picture1.jpg",
-            "planItemTitle": "zvdsvsdvzsdvzsdvszd",
-            "planItemDesc": "zvdsvsdvzsdvzsdvszd"
+            "planItemImg": "..\/images\/",
+            "planItemTitle": "",
+            "planItemDesc": ""
         }
     ]
 }
