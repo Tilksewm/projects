@@ -3,90 +3,86 @@
     "proTitle": "Bank Building",
     "proDescTitle": "Greate building for Bank",
     "proDesc": "A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design",
-    "proImg": "..\/images\/elev_11 - Photo.jpg",
+    "proImg": "..\/images\/FB_IMG_1484263636815.jpg",
     "formTitle": "Form Development",
     "formDesc": "A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design",
     "conTitle": "Concepts",
     "conDesc": "A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design",
     "sitePTitle": "Site Plans",
-    "sitePImg": "..\/images\/Picture5.png",
+    "sitePImg": "..\/images\/FB_IMG_1484475689573.jpg",
     "sitePDesc": "A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design",
     "planTitle": "Plans",
     "constTitle": "Construction",
-    "constImg": "..\/images\/sdfg_12 - Photo.jpg",
+    "constImg": "..\/images\/FB_IMG_1486863174250.jpg",
     "constDesc": "A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design",
     "threeDTitle": "3D",
-    "threeDImg1": "..\/images\/cvb_9 - Photo.jpg",
-    "threeDImg2": "..\/images\/elev_11 - Photo.jpg",
-    "threeDImg3": "..\/images\/elev_13 - Photo.jpg",
+    "threeDImg1": "..\/images\/FB_IMG_1493448855582.jpg",
+    "threeDImg2": "..\/images\/FB_IMG_1493448852238.jpg",
+    "threeDImg3": "..\/images\/FB_IMG_1493448849368.jpg",
     "threeDDesc": "A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design",
     "forms": [
         {
-            "formImg": "..\/images\/cvbn.jpg",
+            "formImg": "..\/images\/FB_IMG_1483103185038.jpg",
             "formImgDescTitle": "form 1 under ground",
             "formImgDesc": "A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design"
         },
         {
-            "formImg": "..\/images\/interior d_2 - Photo.jpg",
+            "formImg": "..\/images\/FB_IMG_1484475651132.jpg",
             "formImgDescTitle": "form 2 ground 1",
             "formImgDesc": "A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design"
         },
         {
-            "formImg": "..\/images\/interior d_4 - Photo.jpg",
-            "formImgDescTitle": "plan 3 title",
+            "formImg": "..\/images\/FB_IMG_1484475654046.jpg",
+            "formImgDescTitle": "form 2 under ground",
             "formImgDesc": "A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design"
         },
         {
-            "formImg": "..\/images\/interior d_6 - Photo.jpg",
-            "formImgDescTitle": "plan 4",
+            "formImg": "..\/images\/FB_IMG_1484475659591.jpg",
+            "formImgDescTitle": "form 4 graund 4",
             "formImgDesc": "A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design"
         }
     ],
     "concepts": [
         {
-            "conImg": "..\/images\/Picture3.png",
+            "conImg": "..\/images\/FB_IMG_1484475672423.jpg",
             "conImgDesc": "A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design"
         },
         {
-            "conImg": "..\/images\/sdfgh_3 - Photo.jpg",
+            "conImg": "..\/images\/FB_IMG_1484475677953.jpg",
             "conImgDesc": "A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design"
         },
         {
-            "conImg": "..\/images\/1_6 - Photo.jpg",
+            "conImg": "..\/images\/FB_IMG_1484475680616.jpg",
             "conImgDesc": "A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design"
         },
         {
-            "conImg": "..\/images\/1_7 - Photo.jpg",
-            "conImgDesc": "A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design"
-        },
-        {
-            "conImg": "..\/images\/1_5 - Photo.jpg",
+            "conImg": "..\/images\/FB_IMG_1484475683196.jpg",
             "conImgDesc": "A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design"
         }
     ],
     "plans": [
         {
-            "planItemImg": "..\/images\/yasabneh misganaw, I.D.3 final presentation.png",
+            "planItemImg": "..\/images\/FB_IMG_1484475692740.jpg",
             "planItemTitle": "plan 1 title",
             "planItemDesc": "A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design"
         },
         {
-            "planItemImg": "..\/images\/GTRE_22 - Photo.jpg",
+            "planItemImg": "..\/images\/FB_IMG_1484475711904.jpg",
             "planItemTitle": "plan 2 title",
             "planItemDesc": "A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design"
         },
         {
-            "planItemImg": "..\/images\/ERT_35 - Photo.jpg",
+            "planItemImg": "..\/images\/FB_IMG_1484475714571.jpg",
             "planItemTitle": "plan 3",
             "planItemDesc": "A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design"
         },
         {
-            "planItemImg": "..\/images\/GTRE_28 - Photo.jpg",
+            "planItemImg": "..\/images\/FB_IMG_1484475722643.jpg",
             "planItemTitle": "plan 4",
             "planItemDesc": "A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design"
         },
         {
-            "planItemImg": "..\/images\/sdfgh_13 - Photo.jpg",
+            "planItemImg": "..\/images\/FB_IMG_1484475725708.jpg",
             "planItemTitle": "plan 5",
             "planItemDesc": "A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design A greate bank building design"
         }
